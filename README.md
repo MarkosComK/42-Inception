@@ -3,7 +3,8 @@
 This project involves setting up a small infrastructure composed of different services using Docker containers. The goal is to creating a WordPress website with MariaDB database and NGINX web server, all running in separate containers and connected via a Docker network.
 
 ## Project Structure
-.
+
+```
 ├── Makefile
 ├── secrets/
 │   ├── credentials.txt
@@ -25,6 +26,7 @@ This project involves setting up a small infrastructure composed of different se
             ├── conf/
             ├── Dockerfile
             └── tools/
+```
 
 ## Roadmap & Progress Tracking
 
