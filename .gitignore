@@ -1,0 +1,42 @@
+# Environment variables and secrets
+.env
+.env.*
+secrets/*
+!secrets/.gitkeep
+
+# Docker volumes data
+/data/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+tmp/
+
+# SSL certificates (if generated locally)
+*.pem
+*.key
+*.crt
+*.csr
+
+# Docker related
+.docker/
+
+# Unnecessary files
+node_modules/
+__pycache__/
