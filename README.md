@@ -25,7 +25,6 @@ This project involves setting up a small infrastructure composed of different se
             ├── conf/
             ├── Dockerfile
             └── tools/
-```
 
 ## Roadmap & Progress Tracking
 
