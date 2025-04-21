@@ -1,0 +1,10 @@
+services:
+  mariadb:
+    build: ./requirements/mariadb
+    tty: true
+    stdin_open: true
+    command: /bin/sh
+    ports:
+      - "3306:3306"
+
+#other stuff below
