@@ -1,6 +1,8 @@
 FROM alpine:3.19
 
 RUN apk update && apk add nginx vim bash
+# ssl certificate for nginx
+RUN apk add --no-cache openssl
 
 RUN mkdir -p /run/nginx
 
